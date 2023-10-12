@@ -13,11 +13,17 @@ public class car_Chapter14 {
 	}
 	
 	public void run() {
-		System.out.println( "速度は時速"+this.speed+"kmです" );
+		switch(this.gear) {
+		case 1 -> System.out.println( "速度は時速"+this.speed+"kmです" );
+		case 2 -> System.out.println( "速度は時速"+this.speed+"kmです" );
+		case 3 -> System.out.println( "速度は時速"+this.speed+"kmです" );
+		case 4 -> System.out.println( "速度は時速"+this.speed+"kmです" );
+		case 5 -> System.out.println( "速度は時速"+this.speed+"kmです" );
+		default -> System.out.println( "速度は時速10kmです" );
+	}
 	}
 	
-	//ギア1から3に切り替えました
-	//速度は時速30kmです
+	
 
 	
 }
